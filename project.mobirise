@@ -42,57 +42,6 @@
       },
       "components": [
         {
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#000000"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#000000"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-1",
-          "_params": {
-            "bgColor": "#ffffff",
-            "fontSize": 1,
-            "fontName": {},
-            "fontColor": "#000000",
-            "transparent": false,
-            "sticky": false,
-            "logo": true,
-            "showBrand": false,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/2059931-326x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://rumsb.ru/buy",
-              "title": "",
-              "linkInNewWindow": true
-            }
-          },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\" target=\"_blank\">контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mssg.me/vmf\" aria-expanded=\"false\" target=\"_blank\">НАПИСАТЬ МЕНЕДЖЕРУ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"tel:+79172821899\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;+7 917 282 18 99&nbsp;</a></li>"
-        },
-        {
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -103,8 +52,8 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/11.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/-2000x1250.png",
             "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
@@ -112,36 +61,36 @@
               "height": 720,
               "url": "https://www.youtube.com/embed/BIwPGz_Ws20?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.75,
             "overlayColor": "#151515",
             "showTitle": true,
             "showText": true,
-            "showForm": false
+            "showForm": true
           },
-          "title1": "ВЫКУП ВИЛОЧНЫХ ПОГРУЗЧИКОВ ПО ВСЕЙ РОССИИ",
-          "text": "Выезд на осмотр в день обращения<br>Любая форма оплаты <br>Все типы складской техники, в любом состоянии <br>Работаем с физ. и юр. лицами<br>",
+          "title1": "<a href=\"https://mssg.me/vmf\" target=\"_blank\" class=\"text-white\">ВЫКУП ВИЛОЧНЫХ ПОГРУЗЧИКОВ ПО ВСЕЙ РОССИИ</a>",
+          "text": "<a href=\"https://mssg.me/vmf\" class=\"text-white\">Выезд на осмотр в день обращения</a><br><a href=\"https://mssg.me/vmf\" class=\"text-white\">Любая форма оплаты </a><br><a href=\"https://mssg.me/vmf\" class=\"text-white\">Все типы складской техники</a><br><a href=\"https://mssg.me/vmf\" class=\"text-white\">В любом состоянии </a><br><a href=\"https://mssg.me/vmf\" class=\"text-white\">Работаем с физ. и юр. лицами</a><br>",
           "form": {
             "title": "SUBSCRIBE",
             "action": "info2015kzn@gmail.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "спасибо мы перевогим вам "
             },
             "fields": {
               "name": {
                 "title": "Full Name",
-                "visible": true,
+                "visible": false,
                 "customTitle": "Full Name"
               },
               "email": {
                 "title": "Email",
                 "visible": true,
-                "customTitle": "Email Address here"
+                "customTitle": "Телефон"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-block\">SUBSCRIBE</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-block\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">связаться с менеджером</a>"
         },
         {
           "alias": "unicore/components",
@@ -153,7 +102,7 @@
           "_params": {
             "blocks": "3",
             "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingBottom": "2",
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
@@ -169,8 +118,8 @@
             "icon1": "tasks fa-tasks",
             "icon2": "fa-user",
             "icon3": "fa-usd",
-            "icon4": "fa-globe",
-            "icon5": "fa-globe"
+            "icon4": "",
+            "icon5": ""
           },
           "title1": "первый этап оценки",
           "text1": "Для оценки потребуется основная информация о погрузчике: производитель, модель, год выпуска, грузоподъемность, высота подъема, наработка мото часов, наличие паспорта самоходной машины, ваша цена, фото шильдиков, фото с 4х сторон.&nbsp;",
@@ -290,7 +239,7 @@
             "transparent": false,
             "sticky": false,
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "hideButtons": false
           },
           "logo": {
