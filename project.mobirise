@@ -14,11 +14,12 @@
         "titleFont": "Montserrat",
         "textFont": "Raleway",
         "isSquareButtons": false
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 8,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 9,
+    "versionPublish": "4.0.12",
     "favicon": "@PROJECT_PATH@/assets/images/2059931-128x50.png",
     "noImageResize": "",
     "google-analytics": "",
@@ -49,25 +50,25 @@
           "_name": "header4",
           "_anchor": "header4-2",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showForm": true,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "parallax": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/-2000x1250.png",
-            "bgColor": "#4c6972",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
             "bgVideo": {
               "width": 1280,
               "height": 720,
               "url": "https://www.youtube.com/embed/BIwPGz_Ws20?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.75,
-            "overlayColor": "#151515",
-            "showTitle": true,
-            "showText": true,
-            "showForm": true
+            "overlayColor": "#29d9c2",
+            "overlayOpacity": "0.7"
           },
           "title1": "<a href=\"https://mssg.me/vmf\" target=\"_blank\" class=\"text-white\">ВЫКУП ВИЛОЧНЫХ ПОГРУЗЧИКОВ ПО ВСЕЙ РОССИИ</a>",
           "text": "<a href=\"https://mssg.me/vmf\" class=\"text-white\">Выезд на осмотр в день обращения</a><br><a href=\"https://mssg.me/vmf\" class=\"text-white\">Любая форма оплаты </a><br><a href=\"https://mssg.me/vmf\" class=\"text-white\">Все типы складской техники</a><br><a href=\"https://mssg.me/vmf\" class=\"text-white\">В любом состоянии </a><br><a href=\"https://mssg.me/vmf\" class=\"text-white\">Работаем с физ. и юр. лицами</a><br>",
@@ -75,7 +76,7 @@
             "title": "SUBSCRIBE",
             "action": "info2015kzn@gmail.com",
             "alerts": {
-              "success": "спасибо мы перевогим вам "
+              "success": "спасибо мы перезвоним вам вам "
             },
             "fields": {
               "name": {
@@ -101,20 +102,20 @@
           "_anchor": "content7-6",
           "_params": {
             "blocks": "3",
+            "bgImageRadio": false,
             "paddingTop": 2,
             "paddingBottom": "2",
-            "parallax": false,
-            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColor": "#fff",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#29d9c2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
             "icon1": "tasks fa-tasks",
             "icon2": "fa-user",
             "icon3": "fa-usd",
@@ -141,28 +142,28 @@
           "_name": "form6",
           "_anchor": "form6-7",
           "_params": {
+            "showTitle": true,
+            "showText": true,
             "paddingTop": 0,
             "paddingBottom": 0,
-            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "file:///C:/Users/%D0%9C%D0%B0%D1%80%D0%B0%D1%82.Comp/AppData/Local/Mobirise.com/Mobirise/projectData/1_4.jpg",
-            "bgColor": "#fff",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#29d9c2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
             "googleMap": {
-              "address": "\nТомилино, Московская обл., 140073",
-              "placeId": "ChIJGXiUFu23SkERDhQhR4pze9M",
+              "address": "\nТомилино, Московская обл., 140073 Русский Масштаб",
+              "placeId": "ChIJm2zt_JW3SkERzLIktIzFawE",
               "state": "ok",
               "stateDetails": ""
-            },
-            "showTitle": true,
-            "showText": true
+            }
           },
           "title": "ООО \"Русский Масштаб\"",
           "text": "тел.&nbsp;+7 (917) 282-1899<br>почта:&nbsp;info2015kzn@gmail.com<br>Адрес:&nbsp;Московская область<br>Люберецкий р-н, п. Томилино, <br>тер. Птицефабрика, лит2С",
@@ -193,7 +194,15 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">отправить<br></a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">отправить<br></a>",
+          "_styles": {
+            "H3": {
+              "font-size": "25px"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          }
         }
       ]
     },
@@ -232,15 +241,15 @@
           "_name": "dropdown-menu",
           "_anchor": "dropdown-menu-3",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": false,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#000000",
-            "transparent": false,
-            "sticky": false,
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false
+            "fontColor": "#000000"
           },
           "logo": {
             "image": {
@@ -266,28 +275,28 @@
           "_name": "form6",
           "_anchor": "form6-5",
           "_params": {
+            "showTitle": true,
+            "showText": true,
             "paddingTop": 0,
             "paddingBottom": 0,
-            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColor": "#fff",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
             "googleMap": {
               "address": "\nТомилино, Московская обл., 140073",
               "placeId": "ChIJGXiUFu23SkERDhQhR4pze9M",
               "state": "ok",
               "stateDetails": ""
-            },
-            "showTitle": true,
-            "showText": true
+            }
           },
           "title": "ООО \"Русский Масштаб\"",
           "text": "тел.&nbsp;+7 (917) 282-1899<br>почта:&nbsp;info2015kzn@gmail.com<br>Адрес:&nbsp;Московская область<br>Люберецкий р-н, п. Томилино, <br>тер. Птицефабрика, лит2С",
